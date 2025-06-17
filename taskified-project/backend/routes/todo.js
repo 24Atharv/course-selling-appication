@@ -27,9 +27,10 @@ todoRouter.post('/create', async (req, res) => {
 });
 
 todoRouter.get('/', (req, res) => {
-    
+
 });
 
 module.exports = {
     todoRouter,
 }
+

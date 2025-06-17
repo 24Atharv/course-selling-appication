@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            color: rgb(193, 75, 36);
+            font-family: sans-serif;
+            background-color: rgb(188, 110, 188);
+        }
+
+        .box{
+            background-color: purple;
+            height: 43vw;
+            width: 50vw;
+            position: relative;
+            left: 25vw;
+            top: 3vw;
+            border-radius: 10px;
+        }
+
+        #elem{
+            position: relative;
+            left: 5vw;
+            top: 5vw;
+            gap: 20px;
+            display: grid;
+        }
+
+        #inp-mail{
+            padding: 8px 220px 8px 10px;
+        }
+
+        #inp-password{
+            padding: 8px 220px 8px 10px;
+        }
+
+        #btn{
+            background-color: rgb(103, 26, 114);
+            color: white;
+            padding: 8px 220px 8px 100px;
+            border-radius: 7px;
+            border-color: black;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="box">
+        <div id="elem">
+        <div class="nav">
+            <h2>Signup</h2>
+        </div>
+        <div id="user-inp">
+            <h3>Username</h3>
+            <input type="text" placeholder="Enter the E-mail" id="inp-mail">
+        </div>
+        <div id="password-inp">
+            <h3>Password</h3>
+            <input type="text" name="" id="inp-password" placeholder="Enter the passsword">
+        </div>
+        <div>
+            <button id="btn">Signup</button>
+        </div>
+        <div id="log" style="display: flex; gap: 8px;">
+            <h3>Already have an account?</h3>
+            <h3 style="color: rgb(240, 206, 85);">Sign In</h3>
+        </div>
+        </div>
+    </div>
+</body>
+</html>
