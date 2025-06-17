@@ -12,5 +12,9 @@ app.use(express.json());
 app.use('/user', userRouter);
 app.use('/todo', todoRouter);
 
+app.get('/', (req, res) => {
+    res.sendFile(__dirname + '/public/index.html');
+})
+
 app.listen(3000, () => console.log("Server start"));
 
