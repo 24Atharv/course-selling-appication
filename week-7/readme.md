@@ -1,1 +1,0 @@
-hii there, This is week-7 assignment project
